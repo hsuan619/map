@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_95135af80524ffd94ba2abbd801217be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_95135af80524ffd94ba2abbd801217be" ></div>
+        
+</body>
+<script>    
+    
+            var map_95135af80524ffd94ba2abbd801217be = L.map(
+                "map_95135af80524ffd94ba2abbd801217be",
+                {
+                    center: [23.696, 120.5341],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_110a7ad9e431aa78b646934b1a43587d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+            var marker_3b7652a2ad92f5e345875f7ddba6a7c1 = L.marker(
+                [23.696, 120.5341],
+                {}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+            var icon_4367c461d2f289e008b37278d07cafd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b7652a2ad92f5e345875f7ddba6a7c1.setIcon(icon_4367c461d2f289e008b37278d07cafd6);
+        
+    
+        var popup_4d4e3c53a4d62c1240c65d08df864b17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8850ae81844abefe7604aeca5cb5512b = $(`<div id="html_8850ae81844abefe7604aeca5cb5512b" style="width: 100.0%; height: 100.0%;">YUNTECH</div>`)[0];
+            popup_4d4e3c53a4d62c1240c65d08df864b17.setContent(html_8850ae81844abefe7604aeca5cb5512b);
+        
+
+        marker_3b7652a2ad92f5e345875f7ddba6a7c1.bindPopup(popup_4d4e3c53a4d62c1240c65d08df864b17)
+        ;
+
+        
+    
+    
+            var marker_9dec3ac2f50ed06374a30c8a338f7455 = L.marker(
+                [23.6917896, 120.528184],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_fac95174147f58e9584349d9f0cd8d67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64aab35dfd0c727b63ab518ff17f1a7c = $(`<div id="html_64aab35dfd0c727b63ab518ff17f1a7c" style="width: 100.0%; height: 100.0%;"><b>&#24373;&#33970;&#40573;&#37221;&#38622;</b><a href=https://www.ubereats.com/tw/store/%E5%BC%B5%E8%92%B2%E9%B9%B9%E9%85%A5g/_wombUM2SNeiC9b8gr_Aiw?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_fac95174147f58e9584349d9f0cd8d67.setContent(html_64aab35dfd0c727b63ab518ff17f1a7c);
+        
+
+        marker_9dec3ac2f50ed06374a30c8a338f7455.bindPopup(popup_fac95174147f58e9584349d9f0cd8d67)
+        ;
+
+        
+    
+    
+            var marker_bf7423ea5a3ace5c6b0d5ffb898352a8 = L.marker(
+                [23.6922423, 120.5276326],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_a56956f145a534e2d0135308388be486 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7327a567383faa6d034601d6b46c54ba = $(`<div id="html_7327a567383faa6d034601d6b46c54ba" style="width: 100.0%; height: 100.0%;"><b>&#38867;&#25163;&#20316;&#24282;&#25151;</b><a href=https://www.ubereats.com/tw/store/%E9%9F%93%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF/xifVI7W-XMal5q1_0UpxKg?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_a56956f145a534e2d0135308388be486.setContent(html_7327a567383faa6d034601d6b46c54ba);
+        
+
+        marker_bf7423ea5a3ace5c6b0d5ffb898352a8.bindPopup(popup_a56956f145a534e2d0135308388be486)
+        ;
+
+        
+    
+    
+            var marker_5154991b6b266cd8ef5944408199a902 = L.marker(
+                [23.6919791, 120.5303711],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_5a3081a7766e7dec81883377a64d51ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cc1e7464d24a891f578b00e9f1a08f1 = $(`<div id="html_4cc1e7464d24a891f578b00e9f1a08f1" style="width: 100.0%; height: 100.0%;"><b>&#37292;&#20154;</b><a href=https://www.ubereats.com/tw/store/%E6%BE%A4%E7%94%BA%E6%8B%89%E9%BA%B5/RyJRFmL9UIe2vrLRw5yTfQ?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_5a3081a7766e7dec81883377a64d51ba.setContent(html_4cc1e7464d24a891f578b00e9f1a08f1);
+        
+
+        marker_5154991b6b266cd8ef5944408199a902.bindPopup(popup_5a3081a7766e7dec81883377a64d51ba)
+        ;
+
+        
+    
+    
+            var marker_53438c844392cd036ce6cd2921eff2de = L.marker(
+                [23.6923616, 120.5311295],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_128371ba37d29fde08105193b1866664 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8f8a1c953cae4b94ef8e2cd966c1bd8 = $(`<div id="html_a8f8a1c953cae4b94ef8e2cd966c1bd8" style="width: 100.0%; height: 100.0%;"><b>&#28580;&#30010;&#25289;&#40629;</b><a href=https://www.foodpanda.com.tw/restaurant/a3fw/wei-xiao-ka-li-yun-lin-dou-liu-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_128371ba37d29fde08105193b1866664.setContent(html_a8f8a1c953cae4b94ef8e2cd966c1bd8);
+        
+
+        marker_53438c844392cd036ce6cd2921eff2de.bindPopup(popup_128371ba37d29fde08105193b1866664)
+        ;
+
+        
+    
+    
+            var marker_2ba069b436dc382e954e36a22b2b24ef = L.marker(
+                [23.712008, 120.5434006],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_0c93aef66dbf288f0c7e08578accca40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc2227147ca9040759a19986c916883d = $(`<div id="html_bc2227147ca9040759a19986c916883d" style="width: 100.0%; height: 100.0%;"><b>&#24494;&#31505;&#21654;&#21737;-&#26007;&#20845;&#24215;</b><a href=https://www.ubereats.com/tw/store/%E8%A8%B1%E8%83%96%E5%AD%90%E8%A3%BD%E9%BA%B5%E6%89%80%7C%E7%89%9B%E8%82%89%E9%BA%B5%E5%B0%88%E8%B3%A3/0JWlZQZaW1qIZyoNwzOULg?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_0c93aef66dbf288f0c7e08578accca40.setContent(html_bc2227147ca9040759a19986c916883d);
+        
+
+        marker_2ba069b436dc382e954e36a22b2b24ef.bindPopup(popup_0c93aef66dbf288f0c7e08578accca40)
+        ;
+
+        
+    
+    
+            var marker_c65247680ab6846d3e1242a970606a31 = L.marker(
+                [23.71182, 120.53967],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_439149626721494e49108dfe195273a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e592accf6eb4870da3cfc2c2e2fad13 = $(`<div id="html_7e592accf6eb4870da3cfc2c2e2fad13" style="width: 100.0%; height: 100.0%;"><b>&#35377;&#32982;&#23376;&#35069;&#40629;&#25152;</b><a href=https://www.ubereats.com/tw/store/%E9%BA%B5%E5%AE%B6%E4%BA%8C%E7%9C%B7%E6%96%97%E5%85%AD%E5%BA%97/HPdhDhiMRH-nmfc_jgW0jw?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNCVCOCVBRCVFNSVCMSVCMSVFOCVCNyVBRjEzJUU4JTk5JTlGJTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyQ2hJSkNWN08tRHJJYmpRUk1RdGd4Ulh3eW5jJTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMmdvb2dsZV9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTIzLjcwOTc1ODMlMkMlMjJsb25naXR1ZGUlMjIlM0ExMjAuNTQyMTg5JTdE target="_blank">ubereats</a></div>`)[0];
+            popup_439149626721494e49108dfe195273a1.setContent(html_7e592accf6eb4870da3cfc2c2e2fad13);
+        
+
+        marker_c65247680ab6846d3e1242a970606a31.bindPopup(popup_439149626721494e49108dfe195273a1)
+        ;
+
+        
+    
+    
+            var marker_947410fecbb3c281bb2fe30aad7014fe = L.marker(
+                [23.7097583, 120.542189],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_6f757c2626d5e3066f1ca7fa8499cdaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b8e1dd67dd7942b0a53aadeadf4f424 = $(`<div id="html_7b8e1dd67dd7942b0a53aadeadf4f424" style="width: 100.0%; height: 100.0%;"><b>&#40629;&#23478;&#20108;&#30519;-&#26007;&#20845;&#24215;</b><a href=https://www.foodpanda.com.tw/restaurant/a8in/xu-ka-li-zhuan-mai-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_6f757c2626d5e3066f1ca7fa8499cdaf.setContent(html_7b8e1dd67dd7942b0a53aadeadf4f424);
+        
+
+        marker_947410fecbb3c281bb2fe30aad7014fe.bindPopup(popup_6f757c2626d5e3066f1ca7fa8499cdaf)
+        ;
+
+        
+    
+    
+            var marker_f016a0f7eea146f5ab511788ae91cecb = L.marker(
+                [23.7082213, 120.5411021],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_ed492486724b6d8d8f0081a8f0646e11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76576c0ce2edbc865c44af61aee9ded9 = $(`<div id="html_76576c0ce2edbc865c44af61aee9ded9" style="width: 100.0%; height: 100.0%;"><b>&#26093;&#21654;&#21737;&#23560;&#36067;&#24215;</b><a href=https://www.ubereats.com/tw/store/%E5%BC%B5%E8%92%B2%E9%B9%B9%E9%85%A5g/_wombUM2SNeiC9b8gr_Aiw?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_ed492486724b6d8d8f0081a8f0646e11.setContent(html_76576c0ce2edbc865c44af61aee9ded9);
+        
+
+        marker_f016a0f7eea146f5ab511788ae91cecb.bindPopup(popup_ed492486724b6d8d8f0081a8f0646e11)
+        ;
+
+        
+    
+    
+            var marker_23dd99645ed95632aa92876011d276ce = L.marker(
+                [23.7069224, 120.5406521],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_1ba61f9f0d8a8586aee9c2bfcfae0b97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96849fc554580ecb60b5aac6eec7b8d7 = $(`<div id="html_96849fc554580ecb60b5aac6eec7b8d7" style="width: 100.0%; height: 100.0%;"><b>&#26366;&#35352;&#22823;&#22291;&#40232;&#32905;&#39151;&#28407;&#32905;&#39151;</b><a href=https://www.ubereats.com/tw/store/%E9%9F%93%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF/xifVI7W-XMal5q1_0UpxKg?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_1ba61f9f0d8a8586aee9c2bfcfae0b97.setContent(html_96849fc554580ecb60b5aac6eec7b8d7);
+        
+
+        marker_23dd99645ed95632aa92876011d276ce.bindPopup(popup_1ba61f9f0d8a8586aee9c2bfcfae0b97)
+        ;
+
+        
+    
+    
+            var marker_3a3f49c83a7b6718e5bb7fa0ea0fa045 = L.marker(
+                [23.7082124, 120.5414561],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_ad348ad175bd1d4bc9d37d4ae76612e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e384f99fc0b86cb10a7d556800e1dd06 = $(`<div id="html_e384f99fc0b86cb10a7d556800e1dd06" style="width: 100.0%; height: 100.0%;"><b>&#32769;&#34903;&#30871;&#31935;</b><a href=https://www.ubereats.com/tw/store/%E6%BE%A4%E7%94%BA%E6%8B%89%E9%BA%B5/RyJRFmL9UIe2vrLRw5yTfQ?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_ad348ad175bd1d4bc9d37d4ae76612e2.setContent(html_e384f99fc0b86cb10a7d556800e1dd06);
+        
+
+        marker_3a3f49c83a7b6718e5bb7fa0ea0fa045.bindPopup(popup_ad348ad175bd1d4bc9d37d4ae76612e2)
+        ;
+
+        
+    
+    
+            var marker_6fdcca50dced85e7f268f1583af571c7 = L.marker(
+                [23.7093391, 120.5453428],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_9d7355dd09cd60c82e948b0610df41aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0896e1197327e864ac6243360cb0081a = $(`<div id="html_0896e1197327e864ac6243360cb0081a" style="width: 100.0%; height: 100.0%;"><b>&#38006;&#21213;&#29087;&#25104;&#35930;&#23560;&#36067;</b><a href=https://www.foodpanda.com.tw/restaurant/a3fw/wei-xiao-ka-li-yun-lin-dou-liu-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_9d7355dd09cd60c82e948b0610df41aa.setContent(html_0896e1197327e864ac6243360cb0081a);
+        
+
+        marker_6fdcca50dced85e7f268f1583af571c7.bindPopup(popup_9d7355dd09cd60c82e948b0610df41aa)
+        ;
+
+        
+    
+    
+            var marker_ef3e718926afc6e0d3ddb984334d68e3 = L.marker(
+                [23.7018436, 120.5389643],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_2b6e5aec36a995d07270175bb74d530b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_696dc0523f98f73628c116ee9442e227 = $(`<div id="html_696dc0523f98f73628c116ee9442e227" style="width: 100.0%; height: 100.0%;"><b>&#32887;&#20154;&#38617;&#39255;&#20028;&#26007;&#20845;&#24215;</b><a href=https://www.ubereats.com/tw/store/%E8%A8%B1%E8%83%96%E5%AD%90%E8%A3%BD%E9%BA%B5%E6%89%80%7C%E7%89%9B%E8%82%89%E9%BA%B5%E5%B0%88%E8%B3%A3/0JWlZQZaW1qIZyoNwzOULg?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">foodpanda</a></div>`)[0];
+            popup_2b6e5aec36a995d07270175bb74d530b.setContent(html_696dc0523f98f73628c116ee9442e227);
+        
+
+        marker_ef3e718926afc6e0d3ddb984334d68e3.bindPopup(popup_2b6e5aec36a995d07270175bb74d530b)
+        ;
+
+        
+    
+    
+            var marker_b4c2f8951a90d0fe5a1802e1f0a0e803 = L.marker(
+                [23.6998216, 120.5382708],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_6ba407a96a3dc40b3deec660fdc9556e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cbcdcaa19d7d57f1372c783f718b68c = $(`<div id="html_1cbcdcaa19d7d57f1372c783f718b68c" style="width: 100.0%; height: 100.0%;"><b>&#27491;&#26007;&#20845;&#28810;&#20180;&#39151;</b><a href=https://www.ubereats.com/tw/store/%E9%BA%B5%E5%AE%B6%E4%BA%8C%E7%9C%B7%E6%96%97%E5%85%AD%E5%BA%97/HPdhDhiMRH-nmfc_jgW0jw?diningMode=PICKUP&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNCVCOCVBRCVFNSVCMSVCMSVFOCVCNyVBRjEzJUU4JTk5JTlGJTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyQ2hJSkNWN08tRHJJYmpRUk1RdGd4Ulh3eW5jJTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMmdvb2dsZV9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTIzLjcwOTc1ODMlMkMlMjJsb25naXR1ZGUlMjIlM0ExMjAuNTQyMTg5JTdE target="_blank">ubereats</a></div>`)[0];
+            popup_6ba407a96a3dc40b3deec660fdc9556e.setContent(html_1cbcdcaa19d7d57f1372c783f718b68c);
+        
+
+        marker_b4c2f8951a90d0fe5a1802e1f0a0e803.bindPopup(popup_6ba407a96a3dc40b3deec660fdc9556e)
+        ;
+
+        
+    
+    
+            var marker_ea152d6a44ca835cd386491afbc7b6ec = L.marker(
+                [23.7032933, 120.538731],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_b802ec249a1bf59d5acb02e85fcc2e6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52b2ad494c90682019b3458208f36d11 = $(`<div id="html_52b2ad494c90682019b3458208f36d11" style="width: 100.0%; height: 100.0%;"><b>&#26446;&#35352;&#29138;&#32905;</b><a href=https://www.foodpanda.com.tw/restaurant/a8in/xu-ka-li-zhuan-mai-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_b802ec249a1bf59d5acb02e85fcc2e6c.setContent(html_52b2ad494c90682019b3458208f36d11);
+        
+
+        marker_ea152d6a44ca835cd386491afbc7b6ec.bindPopup(popup_b802ec249a1bf59d5acb02e85fcc2e6c)
+        ;
+
+        
+    
+    
+            var marker_292017757d66624b2a48f81ab6afdb13 = L.marker(
+                [23.6927298, 120.532406],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_65584fa3819dcd3ecfd6d7c45de78a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55b409cb6133fcc80cd6c3060939bd8d = $(`<div id="html_55b409cb6133fcc80cd6c3060939bd8d" style="width: 100.0%; height: 100.0%;"><b>&#27687;&#35948;&#22580; O2D</b><a href=https://www.foodpanda.com.tw/restaurant/a5al/o2d-yang-zhu-chang?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_65584fa3819dcd3ecfd6d7c45de78a42.setContent(html_55b409cb6133fcc80cd6c3060939bd8d);
+        
+
+        marker_292017757d66624b2a48f81ab6afdb13.bindPopup(popup_65584fa3819dcd3ecfd6d7c45de78a42)
+        ;
+
+        
+    
+    
+            var marker_c97fdeee6f91ea6583163aac2d6dcf57 = L.marker(
+                [23.6922713, 120.5304818],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_0f1bf9a345380243f474518ced56e82d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18efeaf4d1cf4d41525159c744cce73d = $(`<div id="html_18efeaf4d1cf4d41525159c744cce73d" style="width: 100.0%; height: 100.0%;"><b>&#38867;&#39080;&#39135;&#22530;</b><a href=https://www.ubereats.com/tw/store/%E9%9F%93%E9%A2%A8%E9%A3%9F%E5%A0%82/6aKGOZ0SW1e5Nydrx60tjQ?utm_source=google&utm_medium=organic&utm_campaign=place-action-link target="_blank">ubereats</a></div>`)[0];
+            popup_0f1bf9a345380243f474518ced56e82d.setContent(html_18efeaf4d1cf4d41525159c744cce73d);
+        
+
+        marker_c97fdeee6f91ea6583163aac2d6dcf57.bindPopup(popup_0f1bf9a345380243f474518ced56e82d)
+        ;
+
+        
+    
+    
+            var marker_535039364c82e299dd511a949a0c79f3 = L.marker(
+                [23.6915649, 120.5279935],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_6edf8345f473b12b5da3b5844fa1f9ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa5343f268739e298e5b542019132d42 = $(`<div id="html_fa5343f268739e298e5b542019132d42" style="width: 100.0%; height: 100.0%;"><b>&#20553;&#24681;&#24066;&#22580;</b><a href=https://www.foodpanda.com.tw/restaurant/a3xc/wei-en-shi-chang?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_6edf8345f473b12b5da3b5844fa1f9ed.setContent(html_fa5343f268739e298e5b542019132d42);
+        
+
+        marker_535039364c82e299dd511a949a0c79f3.bindPopup(popup_6edf8345f473b12b5da3b5844fa1f9ed)
+        ;
+
+        
+    
+    
+            var marker_b4d9b9fa8b44e895b77fcc4c348e2138 = L.marker(
+                [23.6917896, 120.528184],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_40b536afe993314fbfe5cf6b45bbebce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6213f996dadb4de0a82d110a10f15e = $(`<div id="html_cc6213f996dadb4de0a82d110a10f15e" style="width: 100.0%; height: 100.0%;"><b>&#37428;&#20141;</b><a href=https://www.foodpanda.com.tw/restaurant/wz5c/ling-ting?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_40b536afe993314fbfe5cf6b45bbebce.setContent(html_cc6213f996dadb4de0a82d110a10f15e);
+        
+
+        marker_b4d9b9fa8b44e895b77fcc4c348e2138.bindPopup(popup_40b536afe993314fbfe5cf6b45bbebce)
+        ;
+
+        
+    
+    
+            var marker_115c1c5a452dd1c830fdbe115a62f5f7 = L.marker(
+                [23.6919111, 120.5276622],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_f928b93d999a947543cd4a9035b27535 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3216f9aed79ab1d075d33d10ac60ea3f = $(`<div id="html_3216f9aed79ab1d075d33d10ac60ea3f" style="width: 100.0%; height: 100.0%;"><b>&#26216;&#38291;&#24282;&#25151;-&#26007;&#20845;&#40845;&#28525;&#24215;</b><a href=https://www.foodpanda.com.tw/restaurant/b8or/chen-jian-chu-fang-dou-liu-long-tan-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_f928b93d999a947543cd4a9035b27535.setContent(html_3216f9aed79ab1d075d33d10ac60ea3f);
+        
+
+        marker_115c1c5a452dd1c830fdbe115a62f5f7.bindPopup(popup_f928b93d999a947543cd4a9035b27535)
+        ;
+
+        
+    
+    
+            var marker_fe938374447c6cc67b38c7e462e5a7ed = L.marker(
+                [23.6918425, 120.5287979],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_a1b3106fcdb8830f55a4be00917f7ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29545cea9452bffb73ce0d8e99c886c7 = $(`<div id="html_29545cea9452bffb73ce0d8e99c886c7" style="width: 100.0%; height: 100.0%;"><b>&#28856;&#38622;&#22823;&#29509;&#38642;&#26519;&#26007;&#20845;&#38642;&#31185;&#24215;</b><a href=https://www.foodpanda.com.tw/restaurant/k8el/zha-ji-da-shi-yun-lin-yun-ke-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action target="_blank">foodpanda</a></div>`)[0];
+            popup_a1b3106fcdb8830f55a4be00917f7ed3.setContent(html_29545cea9452bffb73ce0d8e99c886c7);
+        
+
+        marker_fe938374447c6cc67b38c7e462e5a7ed.bindPopup(popup_a1b3106fcdb8830f55a4be00917f7ed3)
+        ;
+
+        
+    
+    
+            var marker_63e4b5b1c8c1d58d75807ab777b2b322 = L.marker(
+                [23.7081342, 120.5374959],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_eac7923ee7dd5bc7ad302a27a35b3c1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33a6cdba27975a9848903d686698fb48 = $(`<div id="html_33a6cdba27975a9848903d686698fb48" style="width: 100.0%; height: 100.0%;"><b>&#32982;&#32769;&#29241;</b><a href=https://www.ubereats.com/tw/store/%E8%83%96%E8%80%81%E7%88%B9%E7%BE%8E%E5%BC%8F%E7%82%B8%E9%9B%9E-%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97/V5AcuOtaRgO7ZM2_7CT0yg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNSU5QyU4QiVFNyVBQiU4QiVFOSU5QiVCMiVFNiU5RSU5NyVFNyVBNyU5MSVFNiU4QSU4MCVFNSVBNCVBNyVFNSVBRCVCOCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpXMkY1d0FUSWJqUVJ2bFE1bUZuWUdkOCUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EyMy42OTU5ODM1JTJDJTIybG9uZ2l0dWRlJTIyJTNBMTIwLjUzNDA2NDglN0Q%3D target="_blank">ubereats</a></div>`)[0];
+            popup_eac7923ee7dd5bc7ad302a27a35b3c1f.setContent(html_33a6cdba27975a9848903d686698fb48);
+        
+
+        marker_63e4b5b1c8c1d58d75807ab777b2b322.bindPopup(popup_eac7923ee7dd5bc7ad302a27a35b3c1f)
+        ;
+
+        
+    
+    
+            var marker_2807fdc88fc21ce28d9361e506dd12a6 = L.marker(
+                [23.7018662, 120.5371804],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_610b9ed10669908e88c43b1adf24fb84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04ecc5482e280da1e5e20512ba077518 = $(`<div id="html_04ecc5482e280da1e5e20512ba077518" style="width: 100.0%; height: 100.0%;"><b>&#23470;&#26412;&#27494;&#20028;X&#38642;&#26519;&#26007;&#20845;&#24215;</b><a href=https://www.ubereats.com/tw/store/%E5%AE%AE%E6%9C%AC%E6%AD%A6%E4%B8%BCx%E9%9B%B2%E6%9E%97%E6%96%97%E5%85%AD%E5%BA%97/PjlBLhIfVk6_IKXSMebfKA?diningMode=DELIVERY&mod=storeInfo&modctx=%257B%2522storeSlug%2522%253A%2522%2525E5%2525AE%2525AE%2525E6%25259C%2525AC%2525E6%2525AD%2525A6%2525E4%2525B8%2525BCx%2525E9%25259B%2525B2%2525E6%25259E%252597%2525E6%252596%252597%2525E5%252585%2525AD%2525E5%2525BA%252597%2522%252C%2522storeUuid%2522%253A%25223e39412e-121f-564e-bf20-a5d231e6df28%2522%252C%2522sectionUuid%2522%253A%2522%2522%257D&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNSU5QyU4QiVFNyVBQiU4QiVFOSU5QiVCMiVFNiU5RSU5NyVFNyVBNyU5MSVFNiU4QSU4MCVFNSVBNCVBNyVFNSVBRCVCOCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpXMkY1d0FUSWJqUVJ2bFE1bUZuWUdkOCUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EyMy42OTU5ODM1JTJDJTIybG9uZ2l0dWRlJTIyJTNBMTIwLjUzNDA2NDglN0Q%3D&ps=1 target="_blank">ubereats</a></div>`)[0];
+            popup_610b9ed10669908e88c43b1adf24fb84.setContent(html_04ecc5482e280da1e5e20512ba077518);
+        
+
+        marker_2807fdc88fc21ce28d9361e506dd12a6.bindPopup(popup_610b9ed10669908e88c43b1adf24fb84)
+        ;
+
+        
+    
+    
+            var marker_0341155a37213c8eb012fd7beab27a5a = L.marker(
+                [23.7046174, 120.5395765],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_4f70495580c55360de910bef23079f28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a978799610ef65f90cb5ec8d059bdcf = $(`<div id="html_3a978799610ef65f90cb5ec8d059bdcf" style="width: 100.0%; height: 100.0%;"><b>&#37326;&#30246;&#27966; &#20302;&#21345;&#20415;&#30070;</b><a href=https://www.ubereats.com/tw/store/%E9%87%8E%E7%98%A6%E6%B4%BE-%E4%BD%8E%E5%8D%A1%E4%BE%BF%E7%95%B6/TO1ekyvYQb6N_sCDrP3WUA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNSU5QyU4QiVFNyVBQiU4QiVFOSU5QiVCMiVFNiU5RSU5NyVFNyVBNyU5MSVFNiU4QSU4MCVFNSVBNCVBNyVFNSVBRCVCOCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpXMkY1d0FUSWJqUVJ2bFE1bUZuWUdkOCUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EyMy42OTU5ODM1JTJDJTIybG9uZ2l0dWRlJTIyJTNBMTIwLjUzNDA2NDglN0Q%3D target="_blank">ubereats</a></div>`)[0];
+            popup_4f70495580c55360de910bef23079f28.setContent(html_3a978799610ef65f90cb5ec8d059bdcf);
+        
+
+        marker_0341155a37213c8eb012fd7beab27a5a.bindPopup(popup_4f70495580c55360de910bef23079f28)
+        ;
+
+        
+    
+    
+            var marker_246c64a1ee843a72ee97ba37372a5430 = L.marker(
+                [23.6920879, 120.5294589],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_f49d7cbc3784991b274c4d49e770da97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67c1afa00d6a3f360b15e9a559147cc9 = $(`<div id="html_67c1afa00d6a3f360b15e9a559147cc9" style="width: 100.0%; height: 100.0%;"><b>&#32769;&#22320;&#26041;&#26085;&#24335;&#20028;&#39151;</b><a href=https://www.ubereats.com/tw/store/%E8%80%81%E5%9C%B0%E6%96%B9%E6%97%A5%E5%BC%8F%E4%B8%BC%E9%A3%AF/tth0urCzQxGP-IQJcSE7PQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNSU5QyU4QiVFNyVBQiU4QiVFOSU5QiVCMiVFNiU5RSU5NyVFNyVBNyU5MSVFNiU4QSU4MCVFNSVBNCVBNyVFNSVBRCVCOCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpXMkY1d0FUSWJqUVJ2bFE1bUZuWUdkOCUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EyMy42OTU5ODM1JTJDJTIybG9uZ2l0dWRlJTIyJTNBMTIwLjUzNDA2NDglN0Q%3D target="_blank">ubereats</a></div>`)[0];
+            popup_f49d7cbc3784991b274c4d49e770da97.setContent(html_67c1afa00d6a3f360b15e9a559147cc9);
+        
+
+        marker_246c64a1ee843a72ee97ba37372a5430.bindPopup(popup_f49d7cbc3784991b274c4d49e770da97)
+        ;
+
+        
+    
+    
+            var marker_1495b4a6a2a202f16f43400b37203e0c = L.marker(
+                [23.6465601, 120.5615466],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_40498fec180548345e44af48ade38b1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f2adf95a3304af22ee29dc54048bfff = $(`<div id="html_5f2adf95a3304af22ee29dc54048bfff" style="width: 100.0%; height: 100.0%;"><b>&#26481;&#24066;&#23229;&#31062;&#24287;&#20160;&#37670;&#40629;</b><a href=https://www.ubereats.com/tw/store/%E6%9D%B1%E5%B8%82%E5%AA%BD%E7%A5%96%E5%BB%9F%E4%BB%80%E9%8C%A6%E9%BA%B5/sxlITrmxSrOUVbP4-5CtEA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNSU5QyU4QiVFNyVBQiU4QiVFOSU5QiVCMiVFNiU5RSU5NyVFNyVBNyU5MSVFNiU4QSU4MCVFNSVBNCVBNyVFNSVBRCVCOCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUpXMkY1d0FUSWJqUVJ2bFE1bUZuWUdkOCUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0EyMy42OTU5ODM1JTJDJTIybG9uZ2l0dWRlJTIyJTNBMTIwLjUzNDA2NDglN0Q%3D target="_blank">ubereats</a></div>`)[0];
+            popup_40498fec180548345e44af48ade38b1d.setContent(html_5f2adf95a3304af22ee29dc54048bfff);
+        
+
+        marker_1495b4a6a2a202f16f43400b37203e0c.bindPopup(popup_40498fec180548345e44af48ade38b1d)
+        ;
+
+        
+    
+    
+            var marker_53b18e524c7928723f9dce878912733c = L.marker(
+                [23.7006794, 120.5347778],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_83ce009267f193b967b20af06429f5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab0e6f7f75a1872c0dc6d3bb4df1de09 = $(`<div id="html_ab0e6f7f75a1872c0dc6d3bb4df1de09" style="width: 100.0%; height: 100.0%;"><b>&#28023;&#21619;&#39854; (&#38642;&#26519;&#26007;&#20845;&#24215;)</b><a href=https://www.foodpanda.com.tw/restaurant/e6pk/hai-wei-xian-yun-lin-dou-liu-dian target="_blank">foodpanda</a></div>`)[0];
+            popup_83ce009267f193b967b20af06429f5f7.setContent(html_ab0e6f7f75a1872c0dc6d3bb4df1de09);
+        
+
+        marker_53b18e524c7928723f9dce878912733c.bindPopup(popup_83ce009267f193b967b20af06429f5f7)
+        ;
+
+        
+    
+    
+            var marker_28c2c81a0cfb78aebd4a1e5e98e4f58e = L.marker(
+                [23.6986362, 120.5382688],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_7425d2da3047581a615fdb2e22683b2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f668321dbeb5969f3ac8f8a4d7fdb8ac = $(`<div id="html_f668321dbeb5969f3ac8f8a4d7fdb8ac" style="width: 100.0%; height: 100.0%;"><b>&#23559;&#36557;&#39135;&#24220;</b><a href=https://www.foodpanda.com.tw/restaurant/b6ls/jiang-jun-shi-fu target="_blank">foodpanda</a></div>`)[0];
+            popup_7425d2da3047581a615fdb2e22683b2b.setContent(html_f668321dbeb5969f3ac8f8a4d7fdb8ac);
+        
+
+        marker_28c2c81a0cfb78aebd4a1e5e98e4f58e.bindPopup(popup_7425d2da3047581a615fdb2e22683b2b)
+        ;
+
+        
+    
+    
+            var marker_14556b15cc8c85381e08f40e041c514b = L.marker(
+                [23.7053252, 120.5349014],
+                {"height": 500, "width": 750}
+            ).addTo(map_95135af80524ffd94ba2abbd801217be);
+        
+    
+        var popup_ad231439d20aa3fb53e933f9fedef238 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c141770ea08fed57579f31804b72ee6 = $(`<div id="html_0c141770ea08fed57579f31804b72ee6" style="width: 100.0%; height: 100.0%;"><b>&#35930;&#23559;&#26085;&#26412;&#25289;&#40629; (&#38642;&#26519;&#26007;&#20845;&#24215;)</b><a href=https://www.foodpanda.com.tw/restaurant/jc2q/tun-jiang-ri-ben-la-mian-yun-lin-dou-liu-dian target="_blank">foodpanda</a></div>`)[0];
+            popup_ad231439d20aa3fb53e933f9fedef238.setContent(html_0c141770ea08fed57579f31804b72ee6);
+        
+
+        marker_14556b15cc8c85381e08f40e041c514b.bindPopup(popup_ad231439d20aa3fb53e933f9fedef238)
+        ;
+
+        
+    
+</script>
